@@ -1,0 +1,330 @@
+baseline: 
+M = 32, N = 32 
+average kernel time: 0.0095 ms, average total time: 0.0247 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp one row: 
+M = 32, N = 32 
+average kernel time: 0.0044 ms, average total time: 0.0221 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp one row float4 version: 
+M = 32, N = 32 
+average kernel time: 0.0053 ms, average total time: 0.0222 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp two rows: 
+M = 32, N = 32 
+average kernel time: 0.0058 ms, average total time: 0.0234 s
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp two rows float4 version: 
+M = 32, N = 32 
+average kernel time: 0.0049 ms, average total time: 0.0202 s
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp four row: 
+M = 32, N = 32 
+average kernel time: 0.0050 ms, average total time: 0.0219 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp four row float4 version: 
+M = 32, N = 32 
+average kernel time: 0.0047 ms, average total time: 0.0221 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+
+
+baseline: 
+M = 32, N = 1024 
+average kernel time: 0.0093 ms, average total time: 0.0250 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp one row: 
+M = 32, N = 1024 
+average kernel time: 0.0073 ms, average total time: 0.0264 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp one row float4 version: 
+M = 32, N = 1024 
+average kernel time: 0.0074 ms, average total time: 0.0247 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp two rows: 
+M = 32, N = 1024 
+average kernel time: 0.0092 ms, average total time: 0.0251 s
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp two rows float4 version: 
+M = 32, N = 1024 
+average kernel time: 0.0075 ms, average total time: 0.0228 s
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp four row: 
+M = 32, N = 1024 
+average kernel time: 0.0157 ms, average total time: 0.0310 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp four row float4 version: 
+M = 32, N = 1024 
+average kernel time: 0.0105 ms, average total time: 0.0275 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+
+
+baseline: 
+M = 32, N = 2048 
+average kernel time: 0.0102 ms, average total time: 0.0269 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp one row: 
+M = 32, N = 2048 
+average kernel time: 0.0090 ms, average total time: 0.0265 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp one row float4 version: 
+M = 32, N = 2048 
+average kernel time: 0.0084 ms, average total time: 0.0259 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp two rows: 
+M = 32, N = 2048 
+average kernel time: 0.0125 ms, average total time: 0.0288 s
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp two rows float4 version: 
+M = 32, N = 2048 
+average kernel time: 0.0108 ms, average total time: 0.0276 s
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp four row: 
+M = 32, N = 2048 
+average kernel time: 0.0230 ms, average total time: 0.0396 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp four row float4 version: 
+M = 32, N = 2048 
+average kernel time: 0.0167 ms, average total time: 0.0328 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+
+
+baseline: 
+M = 1024, N = 32 
+average kernel time: 0.1045 ms, average total time: 0.1248 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp one row: 
+M = 1024, N = 32 
+average kernel time: 0.0060 ms, average total time: 0.0211 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp one row float4 version: 
+M = 1024, N = 32 
+average kernel time: 0.0072 ms, average total time: 0.0267 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp two rows: 
+M = 1024, N = 32 
+average kernel time: 0.0062 ms, average total time: 0.0255 s
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp two rows float4 version: 
+M = 1024, N = 32 
+average kernel time: 0.0057 ms, average total time: 0.0248 s
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp four row: 
+M = 1024, N = 32 
+average kernel time: 0.0052 ms, average total time: 0.0269 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp four row float4 version: 
+M = 1024, N = 32 
+average kernel time: 0.0045 ms, average total time: 0.0186 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+
+
+baseline: 
+M = 1024, N = 1024 
+average kernel time: 0.1155 ms, average total time: 0.1362 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp one row: 
+M = 1024, N = 1024 
+average kernel time: 0.0167 ms, average total time: 0.0317 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp one row float4 version: 
+M = 1024, N = 1024 
+average kernel time: 0.0173 ms, average total time: 0.0358 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp two rows: 
+M = 1024, N = 1024 
+average kernel time: 0.0209 ms, average total time: 0.0424 s
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp two rows float4 version: 
+M = 1024, N = 1024 
+average kernel time: 0.0206 ms, average total time: 0.0410 s
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp four row: 
+M = 1024, N = 1024 
+average kernel time: 0.0305 ms, average total time: 0.0530 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp four row float4 version: 
+M = 1024, N = 1024 
+average kernel time: 0.0216 ms, average total time: 0.0406 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+
+
+baseline: 
+M = 1024, N = 2048 
+average kernel time: 0.1254 ms, average total time: 0.1486 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp one row: 
+M = 1024, N = 2048 
+average kernel time: 0.0368 ms, average total time: 0.0542 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp one row float4 version: 
+M = 1024, N = 2048 
+average kernel time: 0.0301 ms, average total time: 0.0520 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp two rows: 
+M = 1024, N = 2048 
+average kernel time: 0.0322 ms, average total time: 0.0495 s
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp two rows float4 version: 
+M = 1024, N = 2048 
+average kernel time: 0.0302 ms, average total time: 0.0467 s
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp four row: 
+M = 1024, N = 2048 
+average kernel time: 0.0564 ms, average total time: 0.0739 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp four row float4 version: 
+M = 1024, N = 2048 
+average kernel time: 0.0360 ms, average total time: 0.0566 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+
+
+baseline: 
+M = 2048, N = 32 
+average kernel time: 0.2050 ms, average total time: 0.2271 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp one row: 
+M = 2048, N = 32 
+average kernel time: 0.0093 ms, average total time: 0.0295 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp one row float4 version: 
+M = 2048, N = 32 
+average kernel time: 0.0084 ms, average total time: 0.0256 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp two rows: 
+M = 2048, N = 32 
+average kernel time: 0.0064 ms, average total time: 0.0231 s
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp two rows float4 version: 
+M = 2048, N = 32 
+average kernel time: 0.0066 ms, average total time: 0.0217 s
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp four row: 
+M = 2048, N = 32 
+average kernel time: 0.0065 ms, average total time: 0.0225 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+one warp four row float4 version: 
+M = 2048, N = 32 
+average kernel time: 0.0053 ms, average total time: 0.0272 ms
+2.6002e-05 7.0681e-05 1.9213e-04 5.2226e-04 1.4197e-03 3.8590e-03 1.0490e-02 2.8515e-02 7.7511e-02 2.1070e-01 
+
+
+
+baseline: 
+M = 2048, N = 1024 
+average kernel time: 0.2258 ms, average total time: 0.2490 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp one row: 
+M = 2048, N = 1024 
+average kernel time: 0.0280 ms, average total time: 0.0487 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp one row float4 version: 
+M = 2048, N = 1024 
+average kernel time: 0.0255 ms, average total time: 0.0425 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp two rows: 
+M = 2048, N = 1024 
+average kernel time: 0.0320 ms, average total time: 0.0487 s
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp two rows float4 version: 
+M = 2048, N = 1024 
+average kernel time: 0.0300 ms, average total time: 0.0467 s
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp four row: 
+M = 2048, N = 1024 
+average kernel time: 0.0393 ms, average total time: 0.0563 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+one warp four row float4 version: 
+M = 2048, N = 1024 
+average kernel time: 0.0330 ms, average total time: 0.0495 ms
+7.6482e-07 2.0790e-06 5.6513e-06 1.5362e-05 4.1758e-05 1.1351e-04 3.0855e-04 8.3873e-04 2.2799e-03 6.1974e-03 
+
+
+
+baseline: 
+M = 2048, N = 2048 
+average kernel time: 0.2870 ms, average total time: 0.3100 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp one row: 
+M = 2048, N = 2048 
+average kernel time: 0.1397 ms, average total time: 0.1642 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp one row float4 version: 
+M = 2048, N = 2048 
+average kernel time: 0.1348 ms, average total time: 0.1618 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp two rows: 
+M = 2048, N = 2048 
+average kernel time: 0.1446 ms, average total time: 0.1748 s
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp two rows float4 version: 
+M = 2048, N = 2048 
+average kernel time: 0.1419 ms, average total time: 0.1665 s
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp four row: 
+M = 2048, N = 2048 
+average kernel time: 0.2431 ms, average total time: 0.2693 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
+
+one warp four row float4 version: 
+M = 2048, N = 2048 
+average kernel time: 0.1973 ms, average total time: 0.2253 ms
+3.8217e-07 1.0388e-06 2.8238e-06 7.6760e-06 2.0866e-05 5.6718e-05 1.5418e-04 4.1910e-04 1.1392e-03 3.0967e-03 
